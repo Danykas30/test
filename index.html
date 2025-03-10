@@ -77,6 +77,36 @@
     background: #1c2533;
 }
 
+.program-schedule {
+    width: 100%;
+    margin: 1rem 0;
+    border-collapse: collapse;
+}
+
+.program-schedule th,
+.program-schedule td {
+    border: 1px solid #4a90e2;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.program-schedule th {
+    background: #0a0f1a;
+    color: #e0e0e0;
+}
+
+.program-schedule td {
+    background: #1c2533;
+    color: #e0e0e0;
+}
+
+.program-schedule tr:nth-child(odd) td {
+    background: #2a3342;
+}
+
+.program-schedule tr:nth-child(even) td {
+    background: #1c2533;
+}
     /* Globalūs stiliai */
     * {
       margin: 0;
@@ -1268,57 +1298,58 @@ Kitą dieną po D. Trumpo kalbos Kongrese M. Egede socialiniame tinkle „Facebo
   </section>
 
   <!-- Tvarkaraščio sekcija -->
-  <section id="schedule">
-     <div class="content-container">
-      <h2 data-aos="fade-up" data-aos-duration="1000">Transliacijos tvarkaraštis</h2>
-      <div class="card" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-  <h2 class="animate out-of-view-up">Naujausios žinios</h2>
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/CRkrfa-Paw4?si=yKdNBPwsk2k9BLjf" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-    </iframe>
-  </div>
-  <p class="animate out-of-view-up">
-    Atrask naujausias televizijos programas ir serialus. Mūsų platforma nuolat atnaujinama naujausiais laidų ir filmų turiniais.
-  </p>
-  <table class="program-schedule">
-    <thead>
-      <tr>
-        <th>Diena</th>
-        <th>Programa</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Pirmadienis</td>
-        <td>22:00-13:00 PROGRAMOS PABAIGA<br>14:00 Žinios<br>18:00 Žinios</td>
-      </tr>
-      <tr>
-        <td>Antradienis</td>
-        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>18:00 Žinios</td>
-      </tr>
-      <tr>
-        <td>Trečiadienis</td>
-        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>18:00 Žinios</td>
-      </tr>
-      <tr>
-        <td>Ketvirtadienis</td>
-        <td>21:00-14:00 PROGRAMOS PABAIGA<br>16:00 Žinios<br>18:00 Žinios</td>
-      </tr>
-      <tr>
-        <td>Penktadienis</td>
-        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>16:30 Savaitės orų prognozė<br>18:00 Sportas<br>19:00-20:00 EntorK filmukai</td>
-      </tr>
-      <tr>
-        <td>Šeštadienis</td>
-        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>16:30 Vaikam laida<br>18:00 Sportas<br>19:00-20:00 EntorK filmukai</td>
-      </tr>
-      <tr>
-        <td>Sekmadienis</td>
-        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>16:30 Savaitės aptarimas su Vygiu<br>18:00 Sportas<br>19:00-20:00 EntorK filmukai</td>
-      </tr>
-    </tbody>
-  </table>
-      </div>
+<section id="schedule">
+    <div class="content-container">
+        <h2 data-aos="fade-up" data-aos-duration="1000">Transliacijos tvarkaraštis</h2>
+        <div class="card" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <h2 class="animate out-of-view-up">Naujausios žinios</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/CRkrfa-Paw4?si=yKdNBPwsk2k9BLjf" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+                </iframe>
+            </div>
+            <p class="animate out-of-view-up">
+                Atrask naujausias televizijos programas ir serialus. Mūsų platforma nuolat atnaujinama naujausiais laidų ir filmų turiniais.
+            </p>
+            <table class="program-schedule">
+                <thead>
+                    <tr>
+                        <th>Diena</th>
+                        <th>Programa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pirmadienis</td>
+                        <td>22:00-13:00 PROGRAMOS PABAIGA<br>14:00 Žinios<br>18:00 Žinios</td>
+                    </tr>
+                    <tr>
+                        <td>Antradienis</td>
+                        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>18:00 Žinios</td>
+                    </tr>
+                    <tr>
+                        <td>Trečiadienis</td>
+                        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>18:00 Žinios</td>
+                    </tr>
+                    <tr>
+                        <td>Ketvirtadienis</td>
+                        <td>21:00-14:00 PROGRAMOS PABAIGA<br>16:00 Žinios<br>18:00 Žinios</td>
+                    </tr>
+                    <tr>
+                        <td>Penktadienis</td>
+                        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>16:30 Savaitės orų prognozė<br>18:00 Sportas<br>19:00-20:00 EntorK filmukai</td>
+                    </tr>
+                    <tr>
+                        <td>Šeštadienis</td>
+                        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>16:30 Vaikam laida<br>18:00 Sportas<br>19:00-20:00 EntorK filmukai</td>
+                    </tr>
+                    <tr>
+                        <td>Sekmadienis</td>
+                        <td>21:00-14:00 PROGRAMOS PABAIGA<br>15:00 Žinios<br>16:30 Savaitės aptarimas su Vygiu<br>18:00 Sportas<br>19:00-20:00 EntorK filmukai</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </section>
 
   <!-- Kontaktų sekcija -->
